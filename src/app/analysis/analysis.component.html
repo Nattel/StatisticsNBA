@@ -1,0 +1,29 @@
+<mat-card class="formConfig">
+  <form>
+    <h4>Do you want a custom mode?</h4>
+    <mat-radio-group (change)="changes($event)" name="gender">
+        <mat-radio-button value="yes">Yes</mat-radio-button>
+        <mat-radio-button value="no">No</mat-radio-button>
+      </mat-radio-group>
+
+    <br>
+    <br>
+
+    <mat-form-field *ngIf=configOption>
+      <mat-label>Favorite Team</mat-label>
+      <mat-select>
+        <mat-option *ngFor="let team of teams" [value]="team.name">
+          {{team.name}}
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+
+    <br>
+
+    <button
+      mat-raised-button
+      color="primary"
+      type="submit">Save</button>
+  </form>
+</mat-card>
+

@@ -1,0 +1,15 @@
+mat-form-field,
+textarea,
+.formConfig {
+  width: 50%;
+  align-content: center;
+}
+
+.formTT {
+  width: 50%;
+  margin: auto;
+ }
+
+#search{
+  background: #4F93C1;
+}

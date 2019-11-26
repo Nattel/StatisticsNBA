@@ -1,0 +1,15 @@
+mat-form-field,
+textarea,
+.formConfig {
+  width: 50%;
+  align-content: center;
+}
+
+.mat-radio-button ~ .mat-radio-button {
+  margin-left: 16px;
+}
+
+.formConfig {
+  width: 50%;
+  margin: auto;
+ }

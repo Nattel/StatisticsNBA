@@ -1,0 +1,59 @@
+<button class="but" id="shower" [matMenuTriggerFor]="menu">
+  <mat-icon>apps</mat-icon>
+</button>
+
+<mat-menu #menu="matMenu" yPosition="above">
+
+  <div>
+      
+    <button class="but" routerLink="/" routerLinkActive="mat-accent">
+      <mat-icon>
+        home
+      </mat-icon>
+    </button>
+
+    <button class="but" routerLink="/analysis" routerLinkActive="mat-accent">
+      <mat-icon>
+        timeline
+      </mat-icon>
+    </button>
+
+    <button class="but" routerLink="/cos" routerLinkActive="mat-accent">
+      <mat-icon>
+        cloud_upload
+      </mat-icon>
+    </button>
+
+    <button class="but" id="last" routerLink="/twitter" routerLinkActive="mat-accent">
+      <mat-icon>
+        touch_app
+      </mat-icon>
+    </button>
+
+  </div>
+
+    <!-- <button mat-menu-item>
+      <mat-icon>home</mat-icon>
+      <span routerLink="/" routerLinkActive="mat-accent">Dashboard</span>
+    </button>
+    <button mat-menu-item>
+      <mat-icon> list_alt</mat-icon>
+      <span>News</span>
+    </button>
+    <button mat-menu-item>
+      <mat-icon>timeline</mat-icon>
+      <span>Analytics</span>
+    </button>
+    <button mat-menu-item>
+      <mat-icon>trending_up</mat-icon>
+      <span routerLink="/twitter" routerLinkActive="mat-accent">Twitter</span>
+    </button>
+    <button mat-menu-item>
+      <mat-icon>cloud_upload</mat-icon>
+      <span>Upload File</span>
+    </button>
+    <button mat-menu-item>
+      <mat-icon>settings</mat-icon>
+      <span routerLink="/config" routerLinkActive="mat-accent">Configuration</span>
+    </button> -->
+</mat-menu>

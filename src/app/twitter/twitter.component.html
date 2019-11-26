@@ -1,0 +1,29 @@
+<mat-card class="formTT">
+  <form (submit)="searchTweet(tweetForm)" #tweetForm="ngForm">
+    <mat-form-field>
+      <mat-label>Search on twitter</mat-label>
+        <input
+        matInput
+        type="text"
+        name="tweet"
+        ngModel
+        #tweet="ngModel">
+    </mat-form-field>
+
+    <br>
+
+    <button
+      mat-raised-button
+      id="search"
+      type="submit">Search</button>
+  </form>
+</mat-card>
+
+<mat-accordion multi=true *ngIf=tt>
+  <mat-expansion-panel *ngFor="let tweets of tweets">
+    <mat-expansion-panel-header>
+      {{ tweets.user.name }}
+    </mat-expansion-panel-header>
+    <p> {{ tweets.text }} </p>
+  </mat-expansion-panel>
+</mat-accordion>

@@ -1,0 +1,25 @@
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+app-menu{
+  margin: auto;
+  margin-top: 200px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.spacer {
+  flex: 1 1 auto;
+  text-align: center;
+}
+
+.all {
+  background: #0574BE;
+}
