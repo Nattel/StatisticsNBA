@@ -5,7 +5,7 @@ ul {
 
 app-menu{
   margin: auto;
-  margin-top: 200px;
+  margin-top: 70px;
 }
 
 a {
@@ -20,6 +20,6 @@ a {
   text-align: center;
 }
 
-.all {
-  background: #0574BE;
+.all{
+  height: 0px;
 }

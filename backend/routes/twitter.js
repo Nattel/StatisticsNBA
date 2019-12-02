@@ -2,10 +2,10 @@ const router = require("express").Router()
 var Twitter = require('twitter');
 
 var client = new Twitter({
-  consumer_key: 'Jb8fynDoWoAWGll34zX31ATam',
-  consumer_secret: 'AEleNi28PBGBr2tRG0n6ADlgXChamSA0cHW5r94IRzW2gwHyUT',
-  access_token_key: '863927629828829185-hIFsiE2dPhGhw7hiPOA7dBYAMGEuqB0',
-  access_token_secret: 'WGjupspqshFX4wLQ3EbVt7DI7ERUhg0WCzC6v2MbUFYwk'
+  consumer_key: 'VMhRzrVVKfio9gvWlt3CORT7k',
+  consumer_secret: 'v3djCoMKQ9AkATpSxorHiX87Z0Wc4LToi197xh88yHLx0zq5yd',
+  access_token_key: '1195036329601576962-e5PnqXA4oBPJ3ZG06zAHtK5YLjILQg',
+  access_token_secret: 'cPQv6HLrciS1HpBqXSqik4rO8EiIqiY3DVBLbt4UybgnX'
 });
 
 router.get("/search/:tweet", function (req, res) {
@@ -17,4 +17,4 @@ router.get("/search/:tweet", function (req, res) {
   });
 })
 
-module.exports = router
+module.exports = router;

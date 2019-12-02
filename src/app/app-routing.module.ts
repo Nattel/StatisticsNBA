@@ -11,7 +11,6 @@ const routes: Routes = [
   { path: 'analysis', component: AnalysisComponent },
   { path: 'twitter', component: TwitterComponent },
   { path: 'cos', component: CosComponent }
-
 ];
 
 @NgModule({

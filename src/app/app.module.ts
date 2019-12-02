@@ -39,6 +39,7 @@ import { CosComponent } from './cos/cos.component';
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
+    // tslint:disable-next-line: deprecation
     HttpModule,
     BrowserAnimationsModule,
     MatInputModule,

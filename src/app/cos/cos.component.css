@@ -16,6 +16,7 @@ textarea,
   width: 30%;
   margin-left: 35%;
   border-radius: 3px;
+  opacity: 1;
 }
 
 .send:hover{

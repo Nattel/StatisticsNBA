@@ -5,7 +5,7 @@ const { IamAuthenticator } = require('ibm-watson/auth');
 const naturalLanguageUnderstanding = new NaturalLanguageUnderstandingV1({
  version: '2019-07-12',
  authenticator: new IamAuthenticator({
-   apikey: 'kOXwTXiPua2qjgdfuAugsQx-ZOP9vpc2XtRb9k_3FLMg',
+   apikey: 'ytf9pdzcE6eXlNHLLt7diJYoksL82mpPHuQdq_CLeElB',
  }),
  url: 'https://gateway.watsonplatform.net/natural-language-understanding/api',
 });
