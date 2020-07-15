@@ -1,36 +1,8 @@
 # Statistics NBA
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.12.
+O projeto foi criado com o intuito de provar alguns dos meus conhecimentos em técnologias IBM com uma solução utilizando produtos da IBM Cloud. 
+Nele são análisados dados de artigos de notícias, onde se verífica a presença de determinados esportistas, times ou outras coisas relacionadas ao esporte.
 
-This project was made using CanvasJS.
+Estou em um processo de melhoramento e de como fazê-lo realmente funcionar, afinal no momento tudo não passa de uma amostra do que realmente deveria ser.
 
-
-## Starting errors
-
-To run this you might need build a few things using "npm install ****". The errors trying to follow the next steps will show you which libraries you should install.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files. But it woll not be functional.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
-"# finalTrial" 
-"# StatisticsNBA" 
+Existe um [quadro](https://trello.com/b/iijaiufU) no trello para esse repositório. Tentei usar o esquema de projetos do próprio Github mas ele me pareceu demasiadamente cru e sem estética nenhuma.
