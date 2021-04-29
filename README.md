@@ -5,4 +5,4 @@ Nele são análisados dados de artigos de notícias, onde se verífica a presen�
 
 Estou em um processo de melhoramento e de como fazê-lo realmente funcionar, afinal no momento tudo não passa de uma amostra do que realmente deveria ser.
 
-Existe um [quadro](https://trello.com/b/iijaiufU) no trello para esse repositório. Tentei usar o esquema de projetos do próprio Github mas ele me pareceu demasiadamente cru e sem estética nenhuma.
+Existe um [apresentação](https://github.com/Nattel/StatisticsNBA/raw/master/apresentacao.pptx) e também um [quadro](https://trello.com/b/iijaiufU) no trello para esse repositório.
